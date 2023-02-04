@@ -1,3 +1,4 @@
+# uvicorn main:app --reload
 from fastapi import FastAPI, File, UploadFile
 import tensorflow as tf
 import numpy as np
