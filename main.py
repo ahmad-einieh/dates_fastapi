@@ -9,6 +9,10 @@ app = FastAPI()
 model = tf.lite.Interpreter("model.tflite")
 model.allocate_tensors()
 
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
 @app.post("/predict")
 async def predict(image: UploadFile):
     # Read the image and convert it to a numpy array
