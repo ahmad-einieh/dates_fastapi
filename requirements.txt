@@ -1,4 +1,6 @@
-fastapi==0.89.1
+fastapi==0.91.0
 numpy==1.23.5
 opencv_python==4.7.0.68
+roboflow==0.2.29
 tensorflow==2.11.0
+tf_nightly_intel==2.12.0.dev20230107
