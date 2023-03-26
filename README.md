@@ -7,6 +7,21 @@
 
 <h4 align="center">this project to predcit type of dates</h4>
 
+## How To Use
+
+you need to download python from
+
+then download requirements.txt
+
+then run server locally by:
+
+```bash
+uvicorn --reload app:app
+```
+
+
+> **Note**
+> when you run above command you need to be inside project directory.
 ## Support
 
 <p><a href="https://www.buymeacoffee.com/https://www.buymeacoffee.com/einieh"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="https://www.buymeacoffee.com/einieh" /></a><a href="https://ko-fi.com/https://ko-fi.com/ahmadeinieh72016"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="https://ko-fi.com/ahmadeinieh72016" /></a></p>
