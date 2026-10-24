@@ -1,7 +1,7 @@
 from roboflow import Roboflow
 import base64
 
-rf = Roboflow(api_key="4djNHqVxsswIJ4xmhkdU")
+rf = Roboflow(api_key="CONFIGURE_GENERIC_API_KEY")
 project = rf.workspace().project("dates2")
 model = project.version(1).model
 
